@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.mp4
+*.json
+
+# テンポラリ・レポート・テスト用のファイルを除外
+scratch/
+duplicate_items.txt
+identical_relics_list.txt
+truly_identical_relics.txt
+keys.txt
+test_output.txt
+*.png
+*.zip
+
+# main.py 以外のすべての Python ファイルを除外
+*.py
+!main.py
+!relic_ocr_dist/main.py
